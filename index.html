@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Sambhav jain</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sambhav jain</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="togggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/photo_2023-11-29_08-16-19(1).png" alt="sambhav jain profile" >
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I'm</p>
+            <h1 class="title">Sambhav jain</h1>
+            <p class="section_text_p2">Frontend Developer</p>
+            <div class="btn-container">
+                <!-- there this one problem -resume file not conected -->
+                <button class="btn btn-color-2" onclick="window.open(`./assets/photo_2023-11-29_08-16-19.jpg`)">Download
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href=`./#contact`">Contact info </button>
+            </div>
+            <div class="socials-container">
+                <img src="assets/linkedin.png" alt="My Linkdin profile" class="icon"
+                    onclick="location.href=`https://in.linkedin.com/`">
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href=`https://in.linkedin.com/`">
+            </div>
+
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow">
+
+    </section>
+
+
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="./assets/photo_2023-11-26_11-40-39(.jpg" alt="profile picture">
+            </div>
+            <div class="about_details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" class="icon" alt="experience icon">
+                        <h1>Experience</h1>
+                        <p>1+ years <br>Frontend development self practic</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" class="icon" alt="education icon">
+                        <h1>Education</h1>
+                        <p>B.Sc Bachlors Degree </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                   <p>
+                       Hey there, I'm Sambhav Jain, a frontend web developer passionate about crafting intuitive and impactful
+                        digital experiences. My journey began with a Bachelor's in Science,
+                     </p>
+                     <p>Over the past year, I've immersed myself in frontend technologies—HTML, CSS, Bootstrap, JavaScript,
+                         and React. Through numerous projects, I've honed my skills in creating responsive, user-centric 
+                         designs that blend functionality with aesthetics.</p>
+                         <p>
+                            For me, web development isn't just about code; it's about crafting experiences that captivate 
+                            and connect. I'm constantly driven to push boundaries, learn, and contribute to the 
+                            ever-evolving world of web development
+                         </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow">
+    </section>
+
+
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>JAVASCRIPT</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                       
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>REACT</3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>Git and Github</h3>
+                                <p></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>BOOTSTRAP</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon" class="icon">
+                            <div class="">
+                                <h3>jQuery</h3>
+                                <p>Learing</p>
+                            </div>
+                        </article> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+                <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow">
+
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/ecom.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/TODO.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Sambhav-10/Todo-app'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://sambhav-10.github.io/Todo-app/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/random-password.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Sambhav-10/Random-password-generator-using-react'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href=`https://github.com/Sambhav-10/Random-password-generator-using-react`"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        /> -->
+      </section>
+
+      <section id="contact">
+        <p class="section_text_p1">Get In Toch</p>
+        <h1 class="title">Contact ME</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" alt="" class="icon contact-icon">
+                <p ><a href="">sethsambhav9624@gmail.com</a></p>
+            </div>
+        
+       
+            <div class="contact-info-container">
+                <img src="assets/linkedin.png" alt="" class="icon contact-icon">
+                <p ><a href="https://www.linkedin.com/in/sambhav-jain-57b633272/">LinkedIn</a></p>
+            </div>
+        </div>
+      </section>
+
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
